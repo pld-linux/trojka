@@ -8,7 +8,7 @@ Source: sunsite.unc.edu:/pub/Linux/games/arcade/tetris/trojka.tgz
 Patch0: trojka-fsstnd.patch
 Patch1: trojka-misc.patch
 Patch2: trojka-glibc.patch
-BuildRoot: /var/tmp/trojka-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 The game of Trojka involves a set of falling blocks.  The point is
