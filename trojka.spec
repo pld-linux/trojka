@@ -33,7 +33,7 @@ gdy klocki wype³ni± ca³± planszê.
 %patch2 -p1
 
 %build
-make CFLAGS="-DLINUX $RPM_OPT_FLAGS" LDFLAGS="-s" trojka
+%{__make} CFLAGS="-DLINUX $RPM_OPT_FLAGS" LDFLAGS="-s" trojka
 
 %install
 rm -rf $RPM_BUILD_ROOT
