@@ -2,7 +2,7 @@ Summary:	A non-X game of falling blocks.
 Summary(pl):	Nie-Xowa gra w spadaj±ce klocki
 Name:		trojka
 Version:	1.1
-Release:	1
+Release:	2
 Copyright:	distributable
 Group:		Games
 Group(pl):	Gry
