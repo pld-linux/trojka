@@ -5,8 +5,6 @@ Version:	1.1
 Release:	19
 License:	distributable
 Group:		Applications/Games
-Group(de):	Applikationen/Spiele
-Group(pl):	Aplikacje/Gry
 Source0:	ftp://sunsite.unc.edu/pub/Linux/games/arcade/tetris/%{name}.tgz
 Patch0:		%{name}-FHS.patch
 Patch1:		%{name}-Makefile.patch
