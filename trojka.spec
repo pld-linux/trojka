@@ -2,7 +2,7 @@ Summary:	A non-X game of falling blocks
 Summary(pl):	Nie-Xowa gra w spadaj±ce klocki
 Name:		trojka
 Version:	1.1
-Release:	3
+Release:	19
 License:	distributable
 Group:		Applications/Games
 Group(de):	Applikationen/Spiele
@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(2755,root,games) %{_prefix}/games/trojka
-%attr(664,root,games) /var/games/trojka.scores
+%attr(664,root,games) %config(noreplace) %verify(not size mtime md5) /var/games/trojka.scores
 %{_mandir}/man6/*
 %doc COPYRIGHT.gz
