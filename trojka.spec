@@ -52,7 +52,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(2711,root,games) %{_prefix}/games/trojka
+%attr(2755,root,games) %{_prefix}/games/trojka
 %attr(664,root,games) /var/lib/games/trojka.scores
 %{_mandir}/man6/*
 %doc COPYRIGHT.gz
