@@ -2,7 +2,7 @@ Summary:	A non-X game of falling blocks
 Summary(pl):	Nie-Xowa gra w spadaj±ce klocki
 Name:		trojka
 Version:	1.1
-Release:	19
+Release:	20
 License:	distributable
 Group:		Applications/Games
 Source0:	ftp://sunsite.unc.edu/pub/Linux/games/arcade/tetris/%{name}.tgz
