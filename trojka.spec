@@ -6,6 +6,7 @@ Release:	19
 License:	distributable
 Group:		Applications/Games
 Source0:	ftp://sunsite.unc.edu/pub/Linux/games/arcade/tetris/%{name}.tgz
+# Source0-md5:	e5d09a395df937b4e09a089013648a77
 Patch0:		%{name}-FHS.patch
 Patch1:		%{name}-Makefile.patch
 Patch2:		%{name}-glibc.patch
