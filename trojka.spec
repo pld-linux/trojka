@@ -37,8 +37,6 @@ przek±tnej. Gra koñczy siê, gdy klocki wype³ni± ca³± planszê.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_prefix}/games,%{_mandir}/man6,/var/games}
 
-gzip -9nf COPYRIGHT
-
 install trojka $RPM_BUILD_ROOT%{_prefix}/games
 install trojka.6 $RPM_BUILD_ROOT%{_mandir}/man6
 touch $RPM_BUILD_ROOT/var/games/trojka.scores
@@ -51,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(2755,root,games) %{_prefix}/games/trojka
 %attr(664,root,games) %config(noreplace) %verify(not size mtime md5) /var/games/trojka.scores
 %{_mandir}/man6/*
-%doc COPYRIGHT.gz
+%doc COPYRIGHT
