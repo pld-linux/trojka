@@ -6,7 +6,7 @@ diff -Naur trojka/sys_custom.h trojka-p/sys_custom.h
  #define _sys_custom_
  
 -#define SCOREFILE "/usr/games/lib/trojka.scores"
-+#define SCOREFILE "/var/lib/games/trojka.scores"
++#define SCOREFILE "/var/games/trojka.scores"
  
  #define UMASK 0666    			/* creation mask for hiscorefile */ 
  
@@ -18,7 +18,7 @@ diff -Naur trojka/trojka.6 trojka-p/trojka.6
  .SH FILES
  .nf
 -/usr/local/games/lib/trojka.scores	 The Trojka hiscore file
-+/var/lib/games/trojka.scores	 The Trojka hiscore file
++/var/games/trojka.scores	 The Trojka hiscore file
  
  .SH HISTORY
  First version written in 1989 for MS-Dog. Not long thereafter (in 1990)
