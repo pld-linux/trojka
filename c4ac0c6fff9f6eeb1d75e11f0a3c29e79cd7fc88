@@ -1,0 +1,22 @@
+almost raw
+
+* Sun Mar 21 1999 Cristian Gafton <gafton@redhat.com> 
+- auto rebuild in the new build environment (release 13)
+
+* Thu Dec 17 1998 Michael Maher <mike@redhat.com>
+- built package for 6.0
+
+* Tue Aug 11 1998 Jeff Johnson <jbj@redhat.com>
+- build root
+
+* Fri May 01 1998 Prospector System <bugs@redhat.com>
+- translations modified for de, fr, tr
+
+* Wed Apr 15 1998 Erik Troan <ewt@redhat.com>
+- built against new ncurses
+
+* Mon Oct 20 1997 Otto Hammersmith <otto@redhat.com>
+- fixed path to source
+
+* Fri Jul 18 1997 Erik Troan <ewt@redhat.com>
+- built against glibc
