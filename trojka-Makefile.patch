@@ -1,0 +1,30 @@
+--- trojka/Makefile	Fri Oct 20 22:17:43 1995
++++ trojka-p/Makefile	Sat Apr 29 04:03:40 2000
+@@ -5,7 +5,7 @@
+ #		20.x.1995 for Linux support
+ #
+ 
+-
++CC = gcc
+ 
+ OBJS= trojka.o screen.o scan.o hiscore.o system.o
+ 
+@@ -20,7 +20,7 @@
+ 
+ trojka: $(OBJS)
+ #	$(CC) $(CFLAGS) $(OBJS) -lcurses -ltermlib -o trojka
+-	$(CC) $(CFLAGS) $(OBJS) -lcurses -o trojka
++	$(CC) $(LDFLAGS) $(OBJS) -lncurses -o trojka
+ 
+ 
+ # patch for HP-UX, need 'codelibs'
+@@ -30,6 +30,9 @@
+ #
+ # dependencies
+ #
++
++%.o: %.c
++	$(CC) -c $(CFLAGS) -I/usr/include/ncurses $< -o $@
+ 
+ trojka.o: trojka.h sys_custom.h
+ hiscore.o: hiscore.h sys_custom.h

@@ -1,0 +1,12 @@
+diff -Naur trojka/sys_custom.h trojka-p/sys_custom.h
+--- trojka/sys_custom.h	Fri Oct 20 21:58:14 1995
++++ trojka-p/sys_custom.h	Sat Apr 29 03:47:07 2000
+@@ -7,7 +7,7 @@
+ #ifndef _sys_custom_
+ #define _sys_custom_
+ 
+-#define SCOREFILE "/usr/games/lib/trojka.scores"
++#define SCOREFILE "/var/lib/games/trojka.scores"
+ 
+ #define UMASK 0666    			/* creation mask for hiscorefile */ 
+ 
