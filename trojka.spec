@@ -48,6 +48,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(2755,root,games) %{_prefix}/games/trojka
-%attr(664,root,games) %config(noreplace) %verify(not size mtime md5) /var/games/trojka.scores
+%attr(664,root,games) %config(noreplace) %verify(not md5 mtime size) /var/games/trojka.scores
 %{_mandir}/man6/*
 %doc COPYRIGHT
