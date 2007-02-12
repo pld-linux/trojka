@@ -1,5 +1,5 @@
 Summary:	A non-X game of falling blocks
-Summary(pl):	Nie-Xowa gra w spadaj±ce klocki
+Summary(pl.UTF-8):   Nie-Xowa gra w spadajÄ…ce klocki
 Name:		trojka
 Version:	1.1
 Release:	20
@@ -19,11 +19,11 @@ move the blocks around as they fall, so that three of the same blocks
 end up next to each other, either horizontally or diagonally. Once the
 blocks fill up the entire game area, the game is over.
 
-%description -l pl
-Gra w Trojkê polega na manipulowaniu spadaj±cymi zestawami klocków.
-Celem jest ustawianie ich w miarê ich spadania, tak ¿eby trzy klocki
-tego samego rodzaju u³o¿y³y siê obok siebie, poziomo lub po
-przek±tnej. Gra koñczy siê, gdy klocki wype³ni± ca³± planszê.
+%description -l pl.UTF-8
+Gra w TrojkÄ™ polega na manipulowaniu spadajÄ…cymi zestawami klockÃ³w.
+Celem jest ustawianie ich w miarÄ™ ich spadania, tak Å¼eby trzy klocki
+tego samego rodzaju uÅ‚oÅ¼yÅ‚y siÄ™ obok siebie, poziomo lub po
+przekÄ…tnej. Gra koÅ„czy siÄ™, gdy klocki wypeÅ‚niÄ… caÅ‚Ä… planszÄ™.
 
 %prep
 %setup -q -n %{name}
