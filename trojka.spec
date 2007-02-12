@@ -1,5 +1,5 @@
 Summary:	A non-X game of falling blocks
-Summary(pl.UTF-8):   Nie-Xowa gra w spadające klocki
+Summary(pl.UTF-8):	Nie-Xowa gra w spadające klocki
 Name:		trojka
 Version:	1.1
 Release:	20
